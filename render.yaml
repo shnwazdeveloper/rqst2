@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: auto-approve-bot
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: BOT_USERNAME
+        sync: false
+      - key: CHANNEL1
+        sync: false
+      - key: CHANNEL2
+        sync: false
+      - key: MONGO_URI
+        sync: false
+      - key: DB_NAME
+        value: auto_approve_bot
+      - key: WEBHOOK_URL
+        sync: false          # e.g. https://auto-approve-bot.onrender.com
+      - key: NODE_ENV
+        value: production

@@ -1,0 +1,21 @@
+{
+  "name": "auto-approve-bot",
+  "version": "1.0.0",
+  "description": "Telegram Auto Approve Join Request Bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "grammy": "^1.31.0",
+    "mongoose": "^8.3.4",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
