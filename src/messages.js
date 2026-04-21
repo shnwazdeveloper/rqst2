@@ -31,7 +31,7 @@ function startText(firstName, botUsername) {
     `<b>Setup</b>\n` +
     `Add me as an <b>administrator</b> to your group or channel.\n\n` +
     `Disclaimer \u2192 /disclaimer\n\n` +
-    `Created by <b>@CoderAjinkya</b>`
+    `Created by <b>@Culsor</b>`
   );
 }
 
